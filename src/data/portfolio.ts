@@ -21,6 +21,7 @@ export type Project = {
   title: string;
   subtitle: string;
   note: string;
+  noteEmphasis?: string;
   authors?: string;
   contributions: string[];
   media?: {
@@ -38,7 +39,8 @@ export const projects: Project[] = [
     title: "TRIMI",
     subtitle:
       "A Tri-Modal Manipulation Interface for Direct Demonstration, Joint-Level Haptic Teleoperation, and Robotic Execution",
-    note: "Research project",
+    note: "Research project · Top 3 Finalist in the UMI Arena Device Track at CoRL 2026",
+    noteEmphasis: "UMI Arena Device Track at CoRL 2026",
     authors:
       "Mingzhang Zhu, Quanyou Wang, Beom Jun Kim, Jonathan Liu, Alden Copps, Daniel Koh, Alvin Zhu, Dennis Hong",
     contributions: [
@@ -55,6 +57,7 @@ export const projects: Project[] = [
     links: [
       { label: "Website", href: "https://trimi-hand.github.io/" },
       { label: "Video", href: "https://www.youtube.com/watch?v=Q4nurIYnOPQ" },
+      { label: "UMI Arena", href: "https://umi-arena.airoa.io/" },
       {
         label: "GitHub",
         href: "https://github.com/jonathanhliu21/trimorph-piper-control",
@@ -67,6 +70,7 @@ export const projects: Project[] = [
     subtitle:
       "Direct Kinesthetic Arm Guidance for Efficient Dexterous Demonstration Collection",
     note: "Accepted to IEEE Humanoids 2026",
+    noteEmphasis: "IEEE Humanoids 2026",
     authors:
       "Beom Jun Kim, Shiu-Jen Wang, Jonathan Liu, Alvin Zhu, Quanyou Wang, Hanzhang Fang, Feng Xu, Mingzhang Zhu, Yuchen Cui, Dennis W. Hong",
     contributions: [
@@ -115,6 +119,7 @@ export const projects: Project[] = [
     subtitle:
       "Scaling Urban Mobility Simulation with Hybrid Lightweight Domain-Specific Generator and Large Language Models",
     note: "Accepted to IEEE ITSC 2025",
+    noteEmphasis: "IEEE ITSC 2025",
     authors:
       "Yifan Liu, Xishun Liao, Haoxuan Ma, Jonathan Liu, Rohan Jadhav, Jiaqi Ma",
     contributions: [

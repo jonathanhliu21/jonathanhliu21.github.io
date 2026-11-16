@@ -179,6 +179,10 @@ h3 span {
   font-size: 13px;
   margin: 5px 0;
 }
+.project-note strong {
+  color: #343b43;
+  font-weight: 650;
+}
 .authors {
   color: #5a626a;
   font-size: 13px;

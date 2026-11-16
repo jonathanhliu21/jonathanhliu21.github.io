@@ -28,7 +28,16 @@ export function ProjectCard({ project }: { project: Project }) {
             </>
           )}
         </h3>
-        <p className="project-note">{project.note}</p>
+        <p className="project-note">
+          {project.noteEmphasis
+            ? project.note.split(project.noteEmphasis).map((part, index) => (
+                <span key={index}>
+                  {index > 0 && <strong>{project.noteEmphasis}</strong>}
+                  {part}
+                </span>
+              ))
+            : project.note}
+        </p>
         {project.authors && <Authors authors={project.authors} />}
       </div>
       <div
