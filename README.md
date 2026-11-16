@@ -27,8 +27,8 @@ Edit `src/data/portfolio.ts` to update the biography, projects, contributions, a
 
 All bundled assets are in `public/assets/` and are served by GitHub Pages:
 
-- `resumes/software-resume.pdf`
-- `resumes/robotics-ml-resume.pdf`
+- `resumes/JonathanLiu_Resume_Software.pdf`
+- `resumes/JonathanLiu_Resume_Robotics.pdf`
 - `media/miniq.mp4`
 - `media/trimi-unscrew.mp4` and `media/trimi-unscrew-poster.jpg`
 - `media/transit-display.jpeg`

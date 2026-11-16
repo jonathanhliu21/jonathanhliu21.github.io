@@ -8,10 +8,10 @@ export const profile = {
   about:
     "I’m an undergraduate student at UCLA studying Computer Engineering. I’m in the Robotics and Mechanisms Laboratory (RoMeLa), where I focus on robot learning for dexterous manipulation and locomotion. I’ve worked at Roblox for two years, focusing on optimizing performance for level-of-detail generation and designing modular UI components. I’m interested in building robust and scalable systems across robotics and software.",
   resumes: [
-    { label: "Software Resume", href: "/assets/resumes/software-resume.pdf" },
+    { label: "Software Resume", href: "/assets/resumes/JonathanLiu_Resume_Software.pdf" },
     {
       label: "Robotics + ML Resume",
-      href: "/assets/resumes/robotics-ml-resume.pdf",
+      href: "/assets/resumes/JonathanLiu_Resume_Robotics.pdf",
     },
   ],
 };
